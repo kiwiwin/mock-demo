@@ -1,0 +1,8 @@
+project.ext {
+    easymockVersion = "3.1"
+}
+
+dependencies {
+    compile project(':domain')
+    testCompile "org.easymock:easymock:$easymockVersion"
+}
