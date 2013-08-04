@@ -1,0 +1,8 @@
+project.ext {
+    mockitoVersion = "1.8.4"
+}
+
+dependencies {
+    compile project(':domain')
+    testCompile "org.mockito:mockito-all:$mockitoVersion"
+}

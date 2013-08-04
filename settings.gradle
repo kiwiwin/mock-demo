@@ -1,1 +1,1 @@
-include 'easymock', 'domain'
+include 'easymock', 'jmock', 'mockito', 'domain'

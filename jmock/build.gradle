@@ -1,0 +1,8 @@
+project.ext {
+    jmockVersion = "2.6.0"
+}
+
+dependencies {
+    compile project(':domain')
+    testCompile "org.jmock:jmock:$jmockVersion"
+}
